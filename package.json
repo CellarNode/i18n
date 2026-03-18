@@ -1,24 +1,42 @@
 {
   "name": "@cellarnode/i18n",
   "version": "0.1.0",
+  "description": "Shared i18n configuration for CellarNode frontends — language constants, i18next factory, browser locale detection, and common translations.",
+  "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CellarNode/i18n.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     },
     "./locales/*": "./locales/*",
     "./scripts/copy-common": "./dist/scripts/copy-common.js"
   },
+  "sideEffects": false,
   "files": [
     "dist",
     "locales"
   ],
+  "keywords": [
+    "cellarnode",
+    "i18n",
+    "i18next",
+    "internationalization",
+    "localization"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "vitest run",
+    "typecheck": "tsc --noEmit",
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {
@@ -30,5 +48,8 @@
     "@types/node": "^25.5.0",
     "typescript": "^5.8.0",
     "vitest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
