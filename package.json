@@ -1,6 +1,6 @@
 {
   "name": "@cellarnode/i18n",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Shared i18n configuration for CellarNode frontends — language constants, i18next factory, browser locale detection, and common translations.",
   "license": "MIT",
   "type": "module",

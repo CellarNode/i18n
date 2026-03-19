@@ -1,5 +1,5 @@
 export const SUPPORTED_LANGUAGES = [
-  'en', 'zh', 'fr', 'de', 'it', 'es', 'sv',
+  'en', 'zh', 'fr', 'de', 'it', 'es', 'sv', 'ru',
 ] as const;
 
 export const DEFAULT_LANGUAGE = 'en' as const;
@@ -14,4 +14,5 @@ export const LANGUAGE_DISPLAY_NAMES: Record<SupportedLanguage, string> = {
   it: 'Italiano',
   es: 'Español',
   sv: 'Svenska',
+  ru: 'Русский',
 };

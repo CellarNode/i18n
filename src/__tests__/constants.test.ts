@@ -6,13 +6,13 @@ import {
 } from '../constants';
 
 describe('SUPPORTED_LANGUAGES', () => {
-  it('contains exactly 7 languages', () => {
-    expect(SUPPORTED_LANGUAGES).toHaveLength(7);
+  it('contains exactly 8 languages', () => {
+    expect(SUPPORTED_LANGUAGES).toHaveLength(8);
   });
 
   it('contains all required language codes', () => {
     expect(SUPPORTED_LANGUAGES).toEqual(
-      expect.arrayContaining(['en', 'zh', 'fr', 'de', 'it', 'es', 'sv'])
+      expect.arrayContaining(['en', 'zh', 'fr', 'de', 'it', 'es', 'sv', 'ru'])
     );
   });
 
