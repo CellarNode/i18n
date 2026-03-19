@@ -15,8 +15,25 @@ export default {
     input: ['src/**/*.{ts,tsx}'],
     output: 'public/locales/{{language}}/{{namespace}}.json',
     defaultNamespace: 'common',
+    ignore: [
+      'src/components/ui/**',       // shadcn/ui primitives — don't instrument
+      'src/hooks/**',               // hooks — no user-facing text
+      'src/lib/**',                 // utilities, API clients
+      'src/providers/**',           // context providers
+      'src/integrations/**',        // third-party integrations
+      'src/assets/**',              // static assets
+      'src/__tests__/**',           // test files
+      'src/routeTree.gen.ts',       // auto-generated route tree
+    ],
   },
   lint: {
     enabled: true,
+    ignore: [
+      'src/components/ui/**',
+      'src/hooks/**',
+      'src/lib/**',
+      'src/providers/**',
+      'src/integrations/**',
+    ],
   },
 };
