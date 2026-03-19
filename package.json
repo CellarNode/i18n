@@ -1,6 +1,6 @@
 {
   "name": "@cellarnode/i18n",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Shared i18n configuration for CellarNode frontends — language constants, i18next factory, browser locale detection, and common translations.",
   "license": "MIT",
   "type": "module",
@@ -17,6 +17,10 @@
     ".": {
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
+    },
+    "./config": {
+      "types": "./dist/i18next-config.d.ts",
+      "default": "./dist/i18next-config.js"
     },
     "./locales/*": "./locales/*",
     "./scripts/copy-common": "./dist/scripts/copy-common.js"
