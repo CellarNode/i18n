@@ -34,6 +34,33 @@ export default {
       'src/lib/**',
       'src/providers/**',
       'src/integrations/**',
+      'src/@types/**',
+      'src/routeTree.gen.ts',
+      'src/assets/**',
+    ],
+    // Attributes that often contain brand names, URLs, or non-translatable identifiers
+    ignoredAttributes: [
+      'href',
+      'src',
+      'target',
+      'rel',
+      'type',
+      'id',
+      'name',
+      'className',
+      'htmlFor',
+      'role',
+      'viewBox',
+      'd',  // SVG path data
+    ],
+    // Tags whose text content is typically not user-facing prose
+    ignoredTags: [
+      'code',
+      'pre',
+      'script',
+      'style',
+      'svg',
+      'path',
     ],
   },
 };
