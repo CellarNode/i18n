@@ -1,0 +1,16 @@
+.reposkein/.gitattributes
+  h_af7161f060dc1e 1-7
+.reposkein/.gitignore
+  h_af7161f060dc1e 2-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "168453d88d2d8ee50fdb43545690059c535a50da",
+  "prompts": {},
+  "humans": {
+    "h_af7161f060dc1e": {
+      "author": "mjnong <marcusnagy@icloud.com>"
+    }
+  }
+}
