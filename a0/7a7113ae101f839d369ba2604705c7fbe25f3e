@@ -1,0 +1,25 @@
+AGENTS.md
+  s_9e749c32eaa63c::t_3f087f7a035942 74-90
+docs/agents/domain.md
+  s_9e749c32eaa63c::t_6d6908c68e355d 1-87
+docs/agents/issue-tracker.md
+  s_9e749c32eaa63c::t_5200b34559d39e 1-104
+docs/agents/triage-labels.md
+  s_9e749c32eaa63c::t_782f11eac0ad47 1-47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "a07a7113ae101f839d369ba2604705c7fbe25f3e",
+  "prompts": {},
+  "sessions": {
+    "s_9e749c32eaa63c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1c1a1567-9cb5-40f3-9138-ba09238fd642",
+        "model": "claude-opus-5"
+      },
+      "human_author": "mjnong <marcusnagy@icloud.com>"
+    }
+  }
+}
