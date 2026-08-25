@@ -71,3 +71,20 @@ The script copies `locales/{lang}/common.json` from the installed package into t
 ## Translation pipeline
 
 Per-language non-`common` namespaces are translated by `polyglot-i18n` (Gemini) on merge-to-main in consumer repos. Never edit non-English `common.json` here — fix English, let the pipeline propagate. See `polyglot-i18n/AGENTS.md`.
+
+## Agent skills
+
+### Issue tracker
+
+Linear, workspace `cellarnode`, team **CellarNode** (`CEL`) — Linear MCP first,
+GraphQL `issueCreate` fallback. There are no GitHub issues. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Linear states carry `needs-triage` (`Backlog`) and `wontfix` (`Canceled`); three new labels
+carry `needs-info`, `ready-for-agent`, `ready-for-human`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context. ADRs are graph-anchored RepoSkein decisions, not `docs/adr/*.md`.
+See `docs/agents/domain.md`.
