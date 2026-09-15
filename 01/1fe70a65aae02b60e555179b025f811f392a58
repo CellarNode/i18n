@@ -1,0 +1,19 @@
+package.json
+  s_87d834397ad9f2::t_1a15a354871c2c 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "011fe70a65aae02b60e555179b025f811f392a58",
+  "prompts": {},
+  "sessions": {
+    "s_87d834397ad9f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0d7b73f9-bf8d-43e4-8a98-b0751ef06def",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "mjnong <marcusnagy@icloud.com>"
+    }
+  }
+}
