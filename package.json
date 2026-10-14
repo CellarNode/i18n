@@ -28,6 +28,7 @@
   "sideEffects": false,
   "files": [
     "dist",
+    "!dist/__tests__",
     "locales"
   ],
   "keywords": [
