@@ -44,18 +44,18 @@
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {
-    "i18next": "^24.0.0",
-    "i18next-browser-languagedetector": "^8.0.0",
-    "i18next-http-backend": "^3.0.0"
+    "i18next": "^26.4.2",
+    "i18next-browser-languagedetector": "^8.2.1",
+    "i18next-http-backend": "^4.0.2"
   },
   "peerDependencies": {
     "react-i18next": ">=15.0.0"
   },
   "devDependencies": {
-    "@types/node": "^25.5.0",
-    "react-i18next": "^15.7.4",
-    "typescript": "^5.8.0",
-    "vitest": "^3.0.0"
+    "@types/node": "^25.9.9",
+    "react-i18next": "^17.0.16",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.3"
   },
   "engines": {
     "node": ">=20.0.0"
