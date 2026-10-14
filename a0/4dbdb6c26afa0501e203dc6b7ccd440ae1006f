@@ -1,0 +1,23 @@
+package.json
+  s_4fb4393eff17a7::t_b84d6237691a9e 57
+pnpm-lock.yaml
+  s_4fb4393eff17a7::t_a9cdbdde05de01 13,26,28-29,499-500,847,849,869,873,877,926
+tsconfig.json
+  s_4fb4393eff17a7::t_0754021329f480 12-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a04dbdb6c26afa0501e203dc6b7ccd440ae1006f",
+  "prompts": {},
+  "sessions": {
+    "s_4fb4393eff17a7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f4d34e26-752c-4de0-b0eb-3b816dce2681",
+        "model": "unknown"
+      },
+      "human_author": "mjnong <marcusnagy@icloud.com>"
+    }
+  }
+}
